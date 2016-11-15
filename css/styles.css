@@ -1,0 +1,11 @@
+
+div {
+    padding: 10px;
+    }
+
+span {
+    padding: 15px;
+    /*border: 1px solid black;*/
+    display: inline-block;
+    width: 25%;
+    }
