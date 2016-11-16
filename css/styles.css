@@ -2,12 +2,6 @@ div {
     padding: 10px;
 }
 
-span {
-    padding: 15px;
-    display: inline-block;
-    width: 25%;
-}
-
 footer {
     position: fixed;
     text-align: center;
@@ -16,20 +10,26 @@ footer {
     width: 100%;
     height: 40px;
     background-color: rgb(255,255,255);
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
     z-index: 10;
 }
 
-img {
-  z-index: 1;
+.features {
+  padding: 15px;
+  display: inline-block;
+  width: 25%;
+}
+
+#jumbotron {
+  position: relative;
+  background-image: url("imgs/crowd.jpg");
+  background-size: cover;
+  height: 240px;
 }
 
 #slogan {
   z-index: 5;
-  position: relative;
-  bottom: 350px;
-  left: 150px;
-  font-size: 300%;
+  position: absolute;
+  transform: translateX(150px);
+  font-size: 200%;
   font-weight: bold;
 }
