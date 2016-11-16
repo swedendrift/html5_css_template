@@ -20,3 +20,16 @@ footer {
     border-bottom: 1px solid black;
     z-index: 10;
 }
+
+img {
+  z-index: 1;
+}
+
+#slogan {
+  z-index: 5;
+  position: relative;
+  bottom: 350px;
+  left: 150px;
+  font-size: 300%;
+  font-weight: bold;
+}
